@@ -10,27 +10,24 @@ body {
     height: 100vh;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(7, 1fr);
-    font-family: 'Inter', sans-serif;
     gap: 10px;
-    background-color: black;
 }
 
 .Content {
     display: grid;
     grid-area: 2/3/4/5;
     justify-content: center;
+    align-items: center;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: antiquewhite;
     width: 440px;
     height: 100%;
     border-radius: 10px;
-    align-items: center;
     padding: 10px;
     cursor: pointer;
 }
 
-.btn-outline-warning {
+.btn-warning {
     display: grid;
     grid-area: 2/5/2/5;
     width: 50%;
@@ -38,7 +35,7 @@ body {
 }
 
 
-.btn-outline-dark {
+.btn-dark {
     display: grid;
     grid-area: 3/5/3/5;
     width: 50%;

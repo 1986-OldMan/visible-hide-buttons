@@ -16,5 +16,4 @@ document.getElementById("background").style.color = "orange";
 
 document.getElementById("background").style.backgroundColor = "black";
 
-document.getElementById('body').style.backgroundColor = "mediumseagreen"
-
+document.getElementById('body').style.backgroundColor = "white"
