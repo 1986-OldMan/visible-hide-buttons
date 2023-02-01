@@ -13,7 +13,7 @@ body {
     gap: 10px;
 }
 
-.Content {
+.content {
     display: grid;
     grid-area: 2/3/4/5;
     justify-content: center;
